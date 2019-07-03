@@ -1,12 +1,10 @@
 ﻿namespace TripShare.Data.Repositories
 {
+    using Microsoft.EntityFrameworkCore;
     using System;
     using System.Linq;
     using System.Threading.Tasks;
-
     using TripShare.Data.Common.Repositories;
-
-    using Microsoft.EntityFrameworkCore;
 
     public class EfRepository<TEntity> : IRepository<TEntity>
         where TEntity : class

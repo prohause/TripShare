@@ -1,9 +1,8 @@
 ﻿namespace TripShare.Web.Areas.Administration.Controllers
 {
+    using Microsoft.AspNetCore.Mvc;
     using TripShare.Services.Data;
     using TripShare.Web.Areas.Administration.ViewModels.Dashboard;
-
-    using Microsoft.AspNetCore.Mvc;
 
     public class DashboardController : AdministrationController
     {

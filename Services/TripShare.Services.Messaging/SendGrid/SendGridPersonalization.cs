@@ -1,8 +1,7 @@
 ﻿namespace TripShare.Services.Messaging.SendGrid
 {
-    using System.Collections.Generic;
-
     using Newtonsoft.Json;
+    using System.Collections.Generic;
 
     public class SendGridPersonalization
     {

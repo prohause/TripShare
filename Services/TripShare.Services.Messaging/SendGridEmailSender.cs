@@ -1,17 +1,14 @@
 ﻿namespace TripShare.Services.Messaging
 {
+    using Microsoft.AspNetCore.Identity.UI.Services;
+    using Microsoft.Extensions.Logging;
+    using Newtonsoft.Json;
     using System;
     using System.Net.Http;
     using System.Net.Http.Headers;
     using System.Text;
     using System.Threading.Tasks;
-
     using TripShare.Services.Messaging.SendGrid;
-
-    using Microsoft.AspNetCore.Identity.UI.Services;
-    using Microsoft.Extensions.Logging;
-
-    using Newtonsoft.Json;
 
     // Documentation: https://sendgrid.com/docs/API_Reference/Web_API_v3/Mail/index.html
     public class SendGridEmailSender : IEmailSender

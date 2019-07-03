@@ -1,18 +1,14 @@
 ﻿namespace TripShare.Services.Data.Tests
 {
+    using Microsoft.EntityFrameworkCore;
+    using Moq;
     using System.Collections.Generic;
     using System.Linq;
     using System.Threading.Tasks;
-
     using TripShare.Data;
     using TripShare.Data.Common.Repositories;
     using TripShare.Data.Models;
     using TripShare.Data.Repositories;
-
-    using Microsoft.EntityFrameworkCore;
-
-    using Moq;
-
     using Xunit;
 
     public class SettingsServiceTests

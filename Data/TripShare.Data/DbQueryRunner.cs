@@ -1,11 +1,9 @@
 ﻿namespace TripShare.Data
 {
+    using Microsoft.EntityFrameworkCore;
     using System;
     using System.Threading.Tasks;
-
     using TripShare.Data.Common;
-
-    using Microsoft.EntityFrameworkCore;
 
     public class DbQueryRunner : IDbQueryRunner
     {

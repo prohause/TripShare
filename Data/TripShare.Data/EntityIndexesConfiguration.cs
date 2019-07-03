@@ -1,10 +1,8 @@
 ﻿namespace TripShare.Data
 {
-    using System.Linq;
-
-    using TripShare.Data.Common.Models;
-
     using Microsoft.EntityFrameworkCore;
+    using System.Linq;
+    using TripShare.Data.Common.Models;
 
     internal static class EntityIndexesConfiguration
     {

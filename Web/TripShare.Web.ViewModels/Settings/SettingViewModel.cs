@@ -1,9 +1,8 @@
 ﻿namespace TripShare.Web.ViewModels.Settings
 {
+    using AutoMapper;
     using TripShare.Data.Models;
     using TripShare.Services.Mapping;
-
-    using AutoMapper;
 
     public class SettingViewModel : IMapFrom<Setting>, IHaveCustomMappings
     {

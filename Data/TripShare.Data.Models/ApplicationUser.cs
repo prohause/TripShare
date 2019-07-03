@@ -1,12 +1,10 @@
 ﻿// ReSharper disable VirtualMemberCallInConstructor
 namespace TripShare.Data.Models
 {
+    using Microsoft.AspNetCore.Identity;
     using System;
     using System.Collections.Generic;
-
     using TripShare.Data.Common.Models;
-
-    using Microsoft.AspNetCore.Identity;
 
     public class ApplicationUser : IdentityUser, IAuditInfo, IDeletableEntity
     {

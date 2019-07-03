@@ -1,15 +1,13 @@
 ﻿namespace TripShare.Web.Controllers
 {
+    using Microsoft.AspNetCore.Mvc;
     using System;
     using System.Linq;
     using System.Threading.Tasks;
-
     using TripShare.Data.Common.Repositories;
     using TripShare.Data.Models;
     using TripShare.Services.Mapping;
     using TripShare.Web.ViewModels.Settings;
-
-    using Microsoft.AspNetCore.Mvc;
 
     public class SettingsController : BaseController
     {

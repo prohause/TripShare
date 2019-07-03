@@ -1,8 +1,7 @@
 ﻿namespace TripShare.Services.Messaging
 {
-    using System.Threading.Tasks;
-
     using Microsoft.AspNetCore.Identity.UI.Services;
+    using System.Threading.Tasks;
 
     // This class is used by the application to send Email and SMS
     // when you turn on two-factor authentication in ASP.NET Identity.

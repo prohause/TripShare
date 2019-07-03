@@ -1,14 +1,13 @@
 ﻿namespace TripShare.Web.Tests
 {
-    using System;
-    using System.Diagnostics;
-    using System.Linq;
-
     using Microsoft.AspNetCore.Hosting;
     using Microsoft.AspNetCore.Hosting.Server.Features;
     using Microsoft.AspNetCore.Mvc.Testing;
     using Microsoft.AspNetCore.TestHost;
     using Microsoft.Extensions.DependencyInjection;
+    using System;
+    using System.Diagnostics;
+    using System.Linq;
 
     public class SeleniumServerFactory<TStartup> : WebApplicationFactory<TStartup>
         where TStartup : class
@@ -22,14 +21,14 @@
             this.ClientOptions.BaseAddress = new Uri("https://localhost"); // will follow redirects by default
 
             this.process = new Process
-                       {
-                           StartInfo = new ProcessStartInfo
-                                       {
-                                           FileName = "selenium-standalone",
-                                           Arguments = "start",
-                                           UseShellExecute = true,
-                                       },
-                       };
+            {
+                StartInfo = new ProcessStartInfo
+                {
+                    FileName = "selenium-standalone",
+                    Arguments = "start",
+                    UseShellExecute = true,
+                },
+            };
             this.process.Start();
         }
 

@@ -1,18 +1,5 @@
 ﻿namespace TripShare.Web
 {
-    using System.Reflection;
-
-    using TripShare.Data;
-    using TripShare.Data.Common;
-    using TripShare.Data.Common.Repositories;
-    using TripShare.Data.Models;
-    using TripShare.Data.Repositories;
-    using TripShare.Data.Seeding;
-    using TripShare.Services.Data;
-    using TripShare.Services.Mapping;
-    using TripShare.Services.Messaging;
-    using TripShare.Web.ViewModels;
-
     using Microsoft.AspNetCore.Builder;
     using Microsoft.AspNetCore.Hosting;
     using Microsoft.AspNetCore.Http;
@@ -24,6 +11,17 @@
     using Microsoft.Extensions.Configuration;
     using Microsoft.Extensions.DependencyInjection;
     using Microsoft.Extensions.Logging;
+    using System.Reflection;
+    using TripShare.Data;
+    using TripShare.Data.Common;
+    using TripShare.Data.Common.Repositories;
+    using TripShare.Data.Models;
+    using TripShare.Data.Repositories;
+    using TripShare.Data.Seeding;
+    using TripShare.Services.Data;
+    using TripShare.Services.Mapping;
+    using TripShare.Services.Messaging;
+    using TripShare.Web.ViewModels;
 
     public class Startup
     {
