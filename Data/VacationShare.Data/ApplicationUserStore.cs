@@ -2,10 +2,9 @@
 {
     using System.Security.Claims;
 
-    using VacationShare.Data.Models;
-
     using Microsoft.AspNetCore.Identity;
     using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+    using VacationShare.Data.Models;
 
     public class ApplicationUserStore : UserStore<
         ApplicationUser,
